@@ -1,5 +1,18 @@
-container{
-  padding-top: 300px;
+/* Desce um pouco o título do formulário */
+body{
+  background-color: azure;
 }
 
-formEstacionamento{}
+.header h4 {
+  margin-top: 30px;
+  margin-bottom: 30px; /* Ajuste o valor conforme necessário */
+  text-align: center;
+  
+}
+
+/* Centraliza e define a largura da tabela */
+#tabelaEstacionamento {
+  width: 50%; /* Ajuste a largura conforme necessário */
+  margin: 20px auto; /* Centraliza a tabela */
+  
+}
