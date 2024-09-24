@@ -30,43 +30,43 @@
       <div class="row mb-3">
         <label for="placaVeiculo" class="col-sm-2 col-form-label">Placa do veículo:</label>
         <div class="col-sm-10">
-          <input type="placaVeiculo" class="form-control" id="placaVeiculo">
+          <input type="text" class="form-control" id="placaVeiculo">
         </div>
       </div>
       <div class="row mb-3">
         <label for="nomeProprietario" class="col-sm-2 col-form-label">Nome do Proprietário:</label>
         <div class="col-sm-10">
-          <input type="nomeProprietario" class="form-control" id="nomeProprietario">
+          <input type="text" class="form-control" id="nomeProprietario">
         </div>
       </div>
       <div class="row mb-3">
         <label for="numeroDoApartamento" class="col-sm-2 col-form-label">Número do Apartamento:</label>
         <div class="col-sm-10">
-          <input type="numeroDoApartamento" class="form-control" id="numeroDoApartamento">
+          <input type="text" class="form-control" id="numeroDoApartamento">
         </div>
       </div>
       <div class="row mb-3">
         <label for="blocoDoApartamento" class="col-sm-2 col-form-label">Bloco do Apartamento:</label>
         <div class="col-sm-10">
-          <input type="blocoDoApartamento" class="form-control" id="blocoDoApartamento">
+          <input type="text" class="form-control" id="blocoDoApartamento">
         </div>
       </div>
       <div class="row mb-3">
         <label for="modeloDoVeiculo" class="col-sm-2 col-form-label">Modelo do Veículo:</label>
         <div class="col-sm-10">
-          <input type="modeloDoVeiculo" class="form-control" id="modeloDoVeiculo">
+          <input type="text" class="form-control" id="modeloDoVeiculo">
         </div>
       </div>
       <div class="row mb-3">
         <label for="corDoVeiculo" class="col-sm-2 col-form-label">Cor do Veículo:</label>
         <div class="col-sm-10">
-          <input type="corDoVeiculo" class="form-control" id="corDoVeiculo">
+          <input type="text" class="form-control" id="corDoVeiculo">
         </div>
       </div>
       <div class="row mb-3">
         <label for="NumVagaEstacionamento" class="col-sm-2 col-form-label">Número da Vaga de Estacionamento:</label>
         <div class="col-sm-10">
-          <input type="NumVagaEstacionamento" class="form-control" id="NumVagaEstacionamento">
+          <input type="text" class="form-control" id="NumVagaEstacionamento">
         </div>
       </div>
       <div>
@@ -80,8 +80,7 @@
   <div>
     <table class="table table-sm" id="tabelaEstacionamento">
       <thead>
-        <tr>
-          <th scope="col">#</th>
+        <tr>          
           <th scope="col">Placa</th>
           <th scope="col">Nome Proprietário</th>
           <th scope="col">Número Apartamento</th>
@@ -89,12 +88,14 @@
           <th scope="col">Modelo</th>
           <th scope="col">Cor</th>
           <th scope="col">Número Vaga</th>
-        </tr>
+          <td><button class="btn btn-danger btn-sm excluir">Excluir</button></td>
+        </tr>        
       </thead>
-      <tbody>
+      <tbody>        
       </tbody>
     </table>
   </div>
   </div>
+  <script src="controleEstacionamento.js"></script>
 </body>
 </html>
